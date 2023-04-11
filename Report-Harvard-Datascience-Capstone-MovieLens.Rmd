@@ -523,6 +523,8 @@ RMSE_Test_movieID_userId_genre <- RMSE(final_holdout_test$rating,
                                   final_holdout_test$rate_predict_movieID_userId_genre)
 
 RMSE_Test_movieID_userId_genre_YearsToRate <- RMSE(final_holdout_test$rating,                                         final_holdout_test$rate_predict_movieID_userId_genre_YearsToRate)
+
+RMSE_Test_movieID_userId_genre_YearsToRate
 ```
 
 Based on the results obtained the following table highlights the testing RMSE obtained for each prediction.
@@ -556,14 +558,3 @@ The final test prediction RMSE is
 ## 4. Conclusion
 
 The final testing RMSE of the developed model is below the goal of RMSE \< 0.86490, which satisfy the objective of the project.
-
-
-
-
-
-
-
-
-
-
-

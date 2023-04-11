@@ -291,4 +291,6 @@ RMSE_Test_movieID <- RMSE(final_holdout_test$rating,final_holdout_test$rate_pred
 RMSE_Test_movieID_userId <- RMSE(final_holdout_test$rating,final_holdout_test$rate_predict_movieID_userId)
 RMSE_Test_movieID_userId_genre <- RMSE(final_holdout_test$rating,final_holdout_test$rate_predict_movieID_userId_genre)
 RMSE_Test_movieID_userId_genre_YearsToRate <- RMSE(final_holdout_test$rating,final_holdout_test$rate_predict_movieID_userId_genre_YearsToRate)
+
+RMSE_Test_movieID_userId_genre_YearsToRate
 #-end-[Calculate Testing RMSE]
